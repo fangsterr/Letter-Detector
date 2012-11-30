@@ -9,7 +9,8 @@ The weights file is saved in the following order (saved in raw bits form via Dat
 
 Keep in mind that a "weight layer" is just an intermediate between two layers.
 A weight set of dimension *m* x *n* just represents the weights that transition a layer of *m* nodes to a layer of *n* nodes.
-- (int) how many layers of weights there are - x
+
+- (int) how many layers of weights there are (x)
 - for each i in x
 -- (int) how many nodes are in the layer inputting into this weight layer (j)
 -- (int) how many nodes are in the layer outputted by this weight layer (k)
