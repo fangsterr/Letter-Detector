@@ -12,7 +12,7 @@ A weight set of dimension *m* x *n* just represents the weights that transition 
 
 - (int) how many layers of weights there are (x)
 - for each i in x
--- (int) how many nodes are in the layer inputting into this weight layer (j)
--- (int) how many nodes are in the layer outputted by this weight layer (k)
+ -- (int) how many nodes are in the layer inputting into this weight layer (j)
+ -- (int) how many nodes are in the layer outputted by this weight layer (k)
 - for all i, for all j, for all k (triple nested for loop)
--- (double) the weight @ weights[i][j][k]
+ -- (double) the weight @ weights[i][j][k]
